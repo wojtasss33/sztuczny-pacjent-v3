@@ -1,23 +1,5 @@
 import streamlit as st
 
-
-
-
-
-
-Share
-
-
-
-
-
-
-
-
-
-[1]:
-import streamlit as st
-
 # Funkcja do obsługi interakcji użytkownika z botem
 def interact_with_bot(user_input):
     # Tutaj umieść logikę bota, która generuje odpowiedź na podstawie wejściowego tekstu użytkownika
@@ -43,8 +25,6 @@ if st.button("Wyślij zapytanie"):
     bot_response = interact_with_bot(user_input)
     # Wyświetlenie odpowiedzi bota
     st.write("Odpowiedź bota:", bot_response)
-2024-03-27 11:51:58.263 
-  Warning: to view this Streamlit app on a browser, run it with the following
-  command:
 
-    streamlit run /opt/conda/envs/anaconda-panel-2023.05-py310/lib/python3.11/site-packages/ipykernel_launcher.py [ARGUMENTS]
+
+
